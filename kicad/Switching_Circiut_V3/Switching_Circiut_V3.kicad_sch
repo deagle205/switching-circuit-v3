@@ -67575,6 +67575,15 @@
 				)
 			)
 		)
+		(property "MPN" "TS-1187A-B-A-B (LCSC C318884)"
+			(at 210.82 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 		(pin "1"
 			(uuid "57806525-e646-4294-9909-3c97367b17f8")
 		)
