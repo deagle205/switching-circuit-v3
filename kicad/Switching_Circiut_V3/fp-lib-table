@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "V3_Parts")(type "KiCad")(uri "${KIPRJMOD}/lib/V3_Parts.pretty")(options "")(descr "Switching Circuit V3 custom footprints"))
+)

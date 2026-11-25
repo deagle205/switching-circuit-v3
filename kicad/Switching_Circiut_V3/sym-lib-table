@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "V3_Parts")(type "KiCad")(uri "${KIPRJMOD}/lib/V3_Parts.kicad_sym")(options "")(descr "Switching Circuit V3 parts (from Switch_Charging_V3_Design_Notes.docx BOM)"))
+)
