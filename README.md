@@ -26,7 +26,7 @@ Use KiCad 10. Open `kicad/Switching_Circiut_V3/Switching_Circiut_V3.kicad_pro`. 
 | Current sense | R1–R4 5 mΩ Kelvin shunts (WSK2512); U18/U19 INA240A1 (bidirectional) on the high side; U9 ADS131M08 8-channel simultaneous 24-bit ADC | 12 A full scale. All four channels read charge as positive. |
 | Voltage sense | +HV divider 100k/24k into ADS131M08 AIN4 | No dividers on the cell tabs, so there's no drain path. |
 | Switching MCU | U7 RP2040 + U8 16 MB flash | Drives the gates (GPIO2–5) and reads the ADC (SPI1, CLKIN from GPIO21). |
-| Server MCU | U5 RP2350A + U6 16 MB flash | Ethernet (U12 W5500 + RJ45), microSD logging, RTC (U17 RV-3028 + CR2032), OLED, rotary encoder, RGB LED. It can reflash the RP2040 over SWD. |
+| Server MCU | U5 RP2350A + U6 16 MB flash | Ethernet (U12 W5500 + RJ45), microSD logging, RTC (U17 RV-3028 + CR2032), OLED, rotary encoder, RGB LED. It can reflash the RP2040 over SWD. RESET button (SW5) on the RP2350; BOOTSEL buttons on both MCUs (SW3, SW4). |
 | USB | J7 USB-C, U13 USBLC6 ESD protection, U14 USB2512B 2-port hub | One cable programs both MCUs. The board is powered by its own isolated USB charger. |
 | Power | U20 AP63203 buck 5 V → 3.3 V; Q8 + SW2 power switch, F2 polyfuse | |
 

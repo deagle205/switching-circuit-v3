@@ -79,6 +79,7 @@
 "SW1","RotaryEncoder_EC11E","Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm","EC11E series","1",""
 "SW2","SW_SPDT","Button_Switch_SMD:Nidec_Copal_CAS-120A","","1",""
 "SW3,SW4","BOOTSEL","Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A","TS-1187A-B-A-B (LCSC C318884)","2",""
+"SW5","RESET","Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A","","1",""
 "U1,U2,U3,U4","Si8271GB-IS","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","Si8271GB-IS","4",""
 "U5","RP2350A","Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm","RP2350A (A3 or later stepping)","1",""
 "U6,U8","W25Q128JVS","Package_SO:SOIC-8_5.3x5.3mm_P1.27mm","W25Q128JVSIQ","2",""
